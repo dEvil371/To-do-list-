@@ -1,0 +1,105 @@
+.top-head
+{
+    height: 100px;
+    background-color:rgb(51, 212, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.sec-1
+{
+    margin: 10px 0px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+}
+
+.text-box
+{
+    margin: 10px;
+}
+
+input
+{
+    width: 250px;
+    height: 20px;
+}
+
+.sub-btn
+{
+    height: 26px;
+}
+
+.item-area
+{
+    background-color:#FFCBCB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgb(36, 24, 24);
+
+}
+
+.list-head
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFDDE;
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+
+.list-item
+{
+    list-style: none;
+    /* border: 2px solid black; */
+    width: 55%;
+    margin: 7px;
+    height: 30px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 7fr 0.5fr 0.5fr 0.5fr;
+    background-color: blanchedalmond;
+
+}
+
+.list-item li
+{
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.btn
+{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(46, 42, 42);
+    color: white;
+    border-radius: 5px;
+}
+
+.done
+{
+    background-color: rgb(235, 235, 49);
+}
+
+.undone
+{
+    background-color: red;
+}
+
+.hidden
+{
+    display: none;
+}
+
